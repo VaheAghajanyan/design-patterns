@@ -6,6 +6,10 @@ public class Singleton {
         private static final Singleton uniqueInstance = new Singleton();
     }
 
+    public static Singleton getInstance() {
+        return SingletonHelper.uniqueInstance;
+    }
+
     private Singleton () {};
 
     private void setData(int data) {
