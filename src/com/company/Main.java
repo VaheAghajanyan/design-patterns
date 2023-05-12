@@ -7,6 +7,7 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-
+        Human human = new Human("Vahe", 24);
+        Object o = new Object();
     }
 }
