@@ -1,13 +1,13 @@
 package com.company;
 
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Human human = new Human("Vahe", 24);
-        Object o = new Object();
+        Set<Integer> set = new HashSet<>();
+        set.add(2);
+        System.out.println(set.remove(2));
+        System.out.println(set.remove(5));
+        List<Integer> list = new ArrayList<>();
     }
 }
