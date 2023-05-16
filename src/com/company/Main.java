@@ -1,13 +1,7 @@
 package com.company;
 
-import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
-        Set<Integer> set = new HashSet<>();
-        set.add(2);
-        System.out.println(set.remove(2));
-        System.out.println(set.remove(5));
-        List<Integer> list = new ArrayList<>();
+        Human h = new Human("Vahe", 24);
     }
 }

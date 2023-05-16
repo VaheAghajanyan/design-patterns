@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Objects;
 
-public class Human {
+public class Human implements Walkable {
     private String name;
     private int age;
 
@@ -38,5 +38,10 @@ public class Human {
     @Override
     public int hashCode() {
         return Objects.hash(name, age);
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("Walking!");
     }
 }
