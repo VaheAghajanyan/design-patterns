@@ -4,7 +4,19 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        
+        Human h = new Human("Vahe", 24);
+        System.out.println(h.getName());
+        System.out.println(h.getAge());
+        h.walk();
+
+        Doctor d = new Doctor("VaheDoctor", 24, 3);
+        System.out.println(d.getName());
+        System.out.println(d.getAge());
+        d.walk();
+
+        System.out.println(h.toString());
+        System.out.println(h.toString());
+        System.out.println(h == d);
     }
 
     public static void reverseString(String str) {

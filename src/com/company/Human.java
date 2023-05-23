@@ -36,11 +36,6 @@ public class Human implements Walkable {
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(name, age);
-    }
-
-    @Override
     public void walk() {
         System.out.println("Walking!");
     }
