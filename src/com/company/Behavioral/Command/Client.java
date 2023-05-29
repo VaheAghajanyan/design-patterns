@@ -1,5 +1,7 @@
 package com.company.Behavioral.Command;
 
+import java.util.ArrayList;
+
 public class Client {
     public static void main(String[] args) {
         Database database = new Database();
@@ -10,8 +12,6 @@ public class Client {
                 new SelectCommand(database),
                 new DeleteCommand(database)
         );
-
-        developer.
 
     }
 }
