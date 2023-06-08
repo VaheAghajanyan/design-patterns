@@ -3,7 +3,7 @@ package com.company.Creational.Prototype;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentDAO implements Cloneable{
+public class StudentDAO implements Cloneable {
     private static List<Student> studentList = new ArrayList<>();
 
     static {
